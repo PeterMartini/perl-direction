@@ -1,0 +1,28 @@
+{
+    "Items": [
+        "1. Make Perl more suitable for large projects (predictable, less hackish, less dependent on action at distance)",
+        "1.1 Finish nomagicopen (the <<>> operator)",
+        "1.2 Write a good test suite for overload.pm",
+        "1.3 Write a comprehensive test suite for autovivification for every primitive",
+        "1.4 Look again at lexical $_ out of desperation",
+        "1.5 Don't make pack return utf8 when it shouldn't",
+        "2. Making Perl faster",
+        "2.1 Look again at the ?-> operator or whatever its spelling was bikeshedded to",
+        "2.2 Look again at having more builts in a core namespace, like scalar::reftype (aka the mauve project)",
+        "3. Controversial Candy",
+        "3.1 Pointy blocks, like in Perl 6 (mostly) to create anon closures with named parameters (instead of $_)",
+        "3.2 list assignment with holes to get last elements of an array"
+        ],
+    "Categories": [
+        "Increase Perl speed",
+        "Improve test suite",
+        "New operators",
+        "Standardize CORE:: namespace",
+        "Improve exception handling",
+        "Increase content in core namespaces"
+        ],
+    "MailingListIds": [
+        "http://nntp.perl.org/group/perl.perl5.porters/219281"
+        ],
+    "Contributor": "rgs@consttype.org"
+}

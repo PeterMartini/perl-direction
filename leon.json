@@ -1,0 +1,18 @@
+{
+    "Items": [
+        "Structured exceptions",
+        "Better Win32 support",
+        "Extending custom keywords in the general direction of macros",
+        "Proper coroutine primitives"
+        ],
+    "Categories": [
+        "Increase Perl speed",
+        "Improve Perl parallelization",
+        "Add new capabilities",
+        "Improve exception handling"
+        ],
+    "MailingListIds": [
+        "http://nntp.perl.org/group/perl.perl5.porters/219282"
+        ],
+    "Contributor": "fawaka@gmail.com"
+}

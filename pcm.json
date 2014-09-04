@@ -1,0 +1,24 @@
+{
+    "Items": [
+        "Structured exceptions",
+        "Extending custom keywords in the general direction of macros",
+        "Proper coroutine primitives",
+        "Internationalization",
+        "Make 'my TYPE' meaningful",
+        "C++ API",
+        "New, internally consistent C API",
+        "Get signatures and lexical subs past experimental"
+        ],
+    "Categories": [
+        "Increase Perl speed",
+        "Improve Perl parallelization",
+        "Improve exception handling",
+        "Improve Perl API"
+        ],
+    "MailingListIds": [
+        ],
+    "OtherReferences": [
+        "https://github.com/PeterMartini/perl/wiki/YAPCNA-2014"
+        ],
+    "Contributor": "PeterCMartini@GMail.com"
+}

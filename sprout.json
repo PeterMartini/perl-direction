@@ -1,0 +1,24 @@
+{
+    "Items": [
+        "Reduce memory usage by avoiding the need for GVs to hold most subs",
+        "Get Deparse working flawlessly",
+        "Fix all outstanding line number bugs",
+        "Get formats to respect Unicode character widths",
+        "Finish making all keywords into CORE:: subs",
+        "Error codes instead of / in addition to error strings",
+        "More core sub attributes (suggested: list for list assignment, iter for implicit $_ = in while)",
+        "(\\.) prototype to force a reference to any scalar expression"
+        ],
+    "Categories": [
+        "Reduce memory usage",
+        "Improve debugging tools",
+        "Improve Unicode support",
+        "Improve parsing",
+        "Standardize CORE:: namespace",
+        "Improve exception handling"
+        ],
+    "MailingListIds": [
+        "http://nntp.perl.org/group/perl.perl5.porters/219269"
+        ],
+    "Contributor": "sprout@cpan.org"
+}

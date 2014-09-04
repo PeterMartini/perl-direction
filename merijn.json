@@ -1,0 +1,15 @@
+{
+    "Items": [
+        "Keep Configure and friends, as patched by the porters in sync with meta/dist",
+        "Update to meta 4.x",
+        "Support unpack on streams"
+        ],
+    "Categories": [
+        "Configure support",
+        "Add new capabilities (minor)"
+        ],
+    "MailingListIds": [
+        "http://nntp.perl.org/group/perl.perl5.porters/219286"
+        ],
+    "Contributor": "h.m.brand@xs4all.nl"
+}

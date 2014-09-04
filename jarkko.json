@@ -1,0 +1,19 @@
+{
+    "Items": [
+        "Portability",
+        "Keeping pace with UNIXy / POSIX standards",
+        "I think some of the List::Util and Scalar::Util utils really don't need to be in an extension.  Lots of small utilities like this exist, in many cases we already have the C API, which just needs exposing.",
+        "syscall API needs virtualizing",
+        "Mersenne Twister in the core, or in a dist/ext",
+        "The netlib-gdtoa library for portable and precise floating point input and output"
+        ],
+    "Categories": [
+        "Portability",
+        "Increase content in core namespaces",
+        "Improve XS API"
+        ],
+    "MailingListIds": [
+        "http://nntp.perl.org/group/perl.perl5.porters/219288"
+        ],
+    "Contributor": "jhi@iki.fi"
+}
