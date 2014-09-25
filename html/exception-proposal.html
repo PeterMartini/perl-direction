@@ -54,7 +54,7 @@
   </li>
   <li><a href="#Background">Background</a>
     <ul>
-      <li><a href="#Related-existing-facilities-in-Perl-5">Related existing facilities in Perl 5</a></li>
+      <li><a href="#Related-parts-of-Perl-5">Related parts of Perl 5</a></li>
       <li><a href="#Related-threads-on-perl5-porters-unless-in-RT">Related threads on perl5-porters (unless in RT)</a></li>
       <li><a href="#Related-tickets">Related tickets</a></li>
       <li><a href="#Related-proposals-for-Perl-5">Related proposals for Perl 5</a></li>
@@ -145,7 +145,7 @@
 
 <h1 id="Background">Background</h1>
 
-<h2 id="Related-existing-facilities-in-Perl-5">Related existing facilities in Perl 5</h2>
+<h2 id="Related-parts-of-Perl-5">Related parts of Perl 5</h2>
 
 <dl>
 
@@ -159,6 +159,18 @@
 </dd>
 <dt id="SIG-__DIE__---a-custom-error-handler"><code>$SIG{__DIE__}</code> - a custom error handler</dt>
 <dd>
+
+</dd>
+<dt id="perldoc-perldiag">perldoc perldiag</dt>
+<dd>
+
+<p>perldiag is the master list of all warning and error messages, and one of the tests in the test suite ensures that all messages are present in this file. Any changes to the wording will have to be reflected here, but there&#39;s room for significant changes to effect indexing.</p>
+
+</dd>
+<dt id="warnings">warnings</dt>
+<dd>
+
+<p>Warnings already have a tree structure of classes for use in <code>use warnings ...</code> and <code>no warnings ...</code>, so having that metadata be present in the warnings themselves makes sense.</p>
 
 </dd>
 </dl>

@@ -88,7 +88,7 @@ be added are points of stylistic debate.
 
 =head1 Background
 
-=head2 Related existing facilities in Perl 5
+=head2 Related parts of Perl 5
 
 =over 4
 
@@ -97,6 +97,20 @@ be added are points of stylistic debate.
 =item C<$SIG{__WARN__}> - a custom warning handler
 
 =item C<$SIG{__DIE__}> - a custom error handler
+
+=item perldoc perldiag
+
+perldiag is the master list of all warning and error messages,
+and one of the tests in the test suite ensures that all messages
+are present in this file.  Any changes to the wording will have
+to be reflected here, but there's room for significant changes
+to effect indexing.
+
+=item warnings
+
+Warnings already have a tree structure of classes for use in
+C<use warnings ...> and C<no warnings ...>, so having that metadata
+be present in the warnings themselves makes sense.
 
 =back
 
