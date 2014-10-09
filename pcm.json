@@ -4,6 +4,8 @@
         "Extending custom keywords in the general direction of macros",
         "Proper coroutine primitives",
         "Internationalization",
+        "PAR in core",
+        "Ctypes",
         "Make 'my TYPE' meaningful",
         "C++ API",
         "New, internally consistent C API",
